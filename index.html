@@ -2,19 +2,39 @@
 <html >
 <head>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<div class="container-head">
-		<h1>
-			Fight the power, one peel at a time
-		</h1>
-	</div>
+  <div class="container">
+    <div class="row">
+    	<div class="col-xs-12 col-centered text-center container-head">
+    		<h1 id="title" onclick="changeTitle()">
+    			Fight the power, one peel at a time
+    		</h1>
+    	</div>
+    </div>
+  </div>
 </head>
 <body onload="generateQuote()" class="grad">
-	<div class="container-text">
-		<p id="quoteText">
-			<!-- Text goes here -->
-		</p>	
+	<div class="container container-body text-center">
+	  <div class="row row-centered">
+  		<div class="col-xs-12">
+  			<p id="fact1Text">
+  				<!-- Text goes here -->
+  			</p>
+      </div>	
+		</div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p id="fact2Text">
+          <!-- Text goes here -->
+        </p>
+      </div>  
+    </div>
 	</div>
+  <div id="version">
+    Alpha 1.0.0.2
+  </div>
 	<script src="scripts/main-js.js"></script>
+
 </body>
 </html>
