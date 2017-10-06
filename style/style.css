@@ -21,6 +21,7 @@ body {
   transform: translate(-50%,-50%);
   justify-content: center;
   align-items: center;
+  box-sizing: border-box !important;
 }
 
 .container-head {
@@ -28,6 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box !important;
 }
 
 .grad {
