@@ -3,15 +3,19 @@ var first = [
 	'Your orange gets hacked, you get a knife in your orange.',
 	'Everyone remembers what an orange is.',
 	'Walk around with oranges in your ears and everyone thinks you\'re crazy.',
-	'An orange a day keeps scurvy away.'
+	'An orange a day keeps scurvy away.',
+	'For $999 you can buy approximately 2559 oranges.',
+	'An orange requires no charging to be of use.'
 ]
 
 var second = [
 	'Eat an iPhone and you can get internal bleeding.',
 	'Your iPhone gets hacked, you get your face stolen.',
 	'No one remembers the iHome. I mean HomePod. I mean AppleHome. I meanAirBud. I mean HomeBud.',
-	'Work around with AirPods and everything thinks you\'re crazy and stuipd',
-	'An iPhone a day keeps financial security away.'
+	'Walk around with AirPods and everyone thinks you\'re crazy, dumb, and poor.',
+	'An iPhone a day keeps financial security away.',
+	'For $999 you can buy approximately 1 iPhone.',
+	'An iPhone requires a different way of charging it every year.'
 ]
 
 var titles = [
