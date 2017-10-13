@@ -36,7 +36,7 @@ var titles = [
 ];
 
 function generateQuote() {
-	var ranNum = Math.floor(Math.random() * (first.length));
+	var ranNum = Math.floor(Math.random() * (quotes.length));
 	var fact1 = document.getElementById('fact1Text');
 	var fact2 = document.getElementById('fact2Text');
 	var quote = quote[ranNum];
