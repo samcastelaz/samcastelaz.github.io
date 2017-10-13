@@ -39,7 +39,7 @@ function generateQuote() {
 	var ranNum = Math.floor(Math.random() * (quotes.length));
 	var fact1 = document.getElementById('fact1Text');
 	var fact2 = document.getElementById('fact2Text');
-	var quote = quote[ranNum];
+	var quote = quotes[ranNum];
 	fact1.innerHTML = quote.orange;
 	fact2.innerHTML = quote.iphone;
 }
