@@ -50,3 +50,10 @@ function changeTitle() {
 	var title = titles[ranNum];
 	titleElement.innerHTML = title;
 }
+
+function setup() {
+	this.changeTitle()
+	this.generateQuote()
+}
+
+window.onload = setup
