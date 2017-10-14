@@ -29,6 +29,8 @@ var quotes = [
 	}
 ];
 
+var viewedTitles = [];
+
 var titles = [
 	"Fight the power, one peel at a time!",
 	"Orange you glad for this site?",
@@ -48,6 +50,14 @@ function changeTitle() {
 	var ranNum = Math.floor(Math.random() * (titles.length));
 	var titleElement = document.getElementById('title');
 	var title = titles[ranNum];
+	var splicedTitle = titles.splice(ranNum, 1);
+	viewedTitles.push(splicedTitle);
+    if (titles.length == 0) {
+      titles.push.apply(titles, viewedTitles);
+      viewedTitles = [];
+      var splicedTitle = titles.splice(ranNum, 1);
+	  	viewedTitles.push(splicedTitle);
+    }
 	titleElement.innerHTML = title;
 }
 

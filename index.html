@@ -3,6 +3,10 @@
 <head>
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107870191-1"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -34,7 +38,7 @@
   <div class="container">
     <div class="row">
     	<div class="col-xs-12 col-centered text-center container-head hidden-xs">
-    		<h1 id="title" onclick="changeTitle()">
+    		<h1 id="title" onclick="changeTitle()" data-s="0">
           <!-- Text goes here -->
     		</h1>
     	</div>
