@@ -60,6 +60,23 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
+  margin-right: 1%;
+}
+
+#info-button {
+  background-size: 100px 130px;
+  max-width: 55px;
+  max-height: 55px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+#info-modal {
+  word-wrap: break-word;
 }
 
 h1 {
@@ -68,4 +85,20 @@ h1 {
 
 p {
 	font-size: 28px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.close {
+    line-height: 12px;
+    width: 18px;
+    font-size: 8pt;
+    font-family: tahoma;
+    margin-right: 2px;
+    position: absolute;
+    margin-top: 4%;
+    top: 0;
+    right: 0;
 }
