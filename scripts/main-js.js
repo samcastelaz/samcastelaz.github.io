@@ -9,7 +9,7 @@ var quotes = [
 	},
 	{
 		orange: 'Everyone remembers what an orange is.',
-		iphone: 'No one remembers the iHome. I mean HomePod. I mean AppleHome. I meanAirBud. I mean HomeBud.'
+		iphone: 'No one remembers the iHome. I mean HomePod. I mean AppleHome. I mean AirBud. I mean HomeBud.'
 	},
 	{
 		orange: 'Walk around with oranges in your ears and everyone thinks you\'re crazy.',
@@ -34,6 +34,10 @@ var quotes = [
 	{
 		orange: 'Juice an orange and you get orange juice.',
 		iphone: 'Juice an iPhone and you get a broken juicer and broken iPhone.'
+	},
+	{
+		orange: 'Oranges have stood the test of time.',
+		iphone: 'Macs become obsolete after one year.'
 	}
 ];
 
