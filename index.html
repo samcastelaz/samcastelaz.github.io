@@ -48,21 +48,35 @@
 </head>
 <body class="grad">
 	<div class="container container-body text-center">
-	  <div class="row row-centered">
+	  <div class="row row-centered setUp">
   		<div class="col-xs-12">
-  			<p id="fact1Text">
+  			<p id="fact1Text" class="">
   				<!-- Text goes here -->
   			</p>
       </div>	
 		</div>
-    <div class="row">
+    <div class="row row-centered">
+      <div class="col-xs-12">
+        <p id="seperator">
+        </p>
+      </div>  
+    </div>
+    <div class="row punchLine">
       <div class="col-xs-12">
         <p id="fact2Text">
           <!-- Text goes here -->
         </p>
       </div>  
     </div>
+    <div class="row juice-wrapper">
+      <div class="col-xs-12 juice-wrapper">
+         <button type="button" data-toggle="modal" id="juicer" onclick="generateQuote()">
+            Squeeze some fresh oranges!
+         </button>
+      </div>  
+    </div>
 	</div>
+
   <div class="modal fade" id="info-modal" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -91,12 +105,10 @@
   </div>
   <div id="information" class="fixed-bottom">
     <div id="more-info" class="float-left">
-      <button type="button" data-toggle="modal" data-target="#info-modal" id="info-button">
-        <img src="images/info.png" alt="Information" class="img-fluid"/>
-      </button>
+      <button type="button" data-toggle="modal" data-target="#info-modal" id="info-button"/>
     </div>
     <div id="version" class="float-right">
-      Beta 1.0.0.0
+      Beta 2.0.0.0
     </div>
   </div>
 	<script src="scripts/main-js.js"></script>
